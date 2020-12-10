@@ -1,19 +1,24 @@
-title : Java Maven Project
+title : Refactoring
 
-# Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Introduction to refactoring
+    statement: markdowns/introduction.md
+  - title: Bloaters
+    statement: markdowns/bloaters.md
+  - title: Object-Orientation Abusers
+    statement: markdowns/object-orientation-abusers.md
+  - title: Change Preventers
+    statement: markdowns/change-preventers.md
+  - title: Dispensables
+    statement: markdowns/dispensables.md
+  - title: Couplers
+    statement: markdowns/couplers.md
+  - title: Other Smells
+    statement: markdowns/other.md
+  - title: Conclusion
+    statement: markdowns/conclusion.md
 
-
-# Settings for your programming projects and the associated Docker images
 projects:
   java:
-    root: /java-project # Set the root path to your Java project
-
-    # Set the docker image. This image runs JUnit tests using this syntax:
-    # @[Code Editor Title]({"stubs": ["EditorFile1.java", "EditorFile2.java", ...], "command": "MyJUnitClass#myMethod"})
-    # More details here: https://github.com/TechDotIO/java-maven3-junit4-runner
+    root: /java-project
     runner: techio/java-maven3-junit4-runner:1.1.3-java-8
