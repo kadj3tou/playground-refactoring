@@ -10,9 +10,9 @@ Sooner or later, [libraries](https://en.wikipedia.org/wiki/Library_(computing)) 
 
 ### Remedy
 
-- To introduce a few methods to a library class, use Introduce Foreign Method.
+- To introduce a few methods to a library class, use [Introduce Foreign Method](https://refactoring.guru/introduce-foreign-method).
 
-- For big changes in a class library, use Introduce Local Extension.
+- For big changes in a class library, use [Introduce Local Extension](https://refactoring.guru/introduce-local-extension).
 
 ### When to Ignore
 

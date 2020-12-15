@@ -17,6 +17,8 @@ plan:
     statement: markdowns/other.md
   - title: Conclusion
     statement: markdowns/conclusion.md
+  - title: Exercise
+    statement: markdowns/exercise.md
 
 projects:
   java:

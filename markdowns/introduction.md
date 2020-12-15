@@ -35,7 +35,7 @@ The same thing can happen with code. You can temporarily speed up without writin
 
 ### Causes of technical debt
 
-#### Business pressure
+#### Business pressure
 
 Sometimes business circumstances might force you to roll out features before they’re completely finished. In this case, patches and kludges will appear in the code to hide the unfinished parts of the project.
 Lack of understanding of the consequences of technical debt
